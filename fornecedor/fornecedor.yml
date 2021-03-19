@@ -3,7 +3,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     password: 237819
     username: fabiano
-    url: 'jdbc:mysql://localhost:3306/fornecedor'
+    url: 'jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=utc'
   jpa:
     hibernate:
       ddl-auto: update
